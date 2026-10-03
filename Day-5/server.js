@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 function connectDB() {
-    mongoose.connect("mongodb+srv://monjoy:Monjoy12345@cluster0.bt5cixb.mongodb.net/Day-5")
+    mongoose.connect("")
     .then(() => {
         console.log('Connected to MongoDB');
     }).catch((error) => {
