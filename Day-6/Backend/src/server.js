@@ -2,7 +2,7 @@ const app = require("./app");
 const dotenv = require("dotenv").config();
 const connectDB = require("./config/database");
 
-connectDB();
+
 
 
 app.listen(3000, () => {
